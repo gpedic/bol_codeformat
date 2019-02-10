@@ -1,5 +1,5 @@
 /*
-   Copyright 2012 Goran Pedić
+   Copyright 2012 - 2019 Goran Pedić
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -52,7 +52,7 @@ var setHighlightMarkers = function(){
 setHighlightMarkers();
 
 /** Google Code Prettify CSS */
-var syntaxCSS = ".pln{color:#000}@media screen{.str{color:#080}.kwd{color:#008}.com{color:#800}.typ{color:#606}.lit{color:#066}.pun,.opn,.clo{color:#660}.tag{color:#008}.atn{color:#606}.atv{color:#080}.dec,.var{color:#606}.fun{color:red}}@media print,projection{.str{color:#060}.kwd{color:#006;font-weight:bold}.com{color:#600;font-style:italic}.typ{color:#404;font-weight:bold}.lit{color:#044}.pun,.opn,.clo{color:#440}.tag{color:#006;font-weight:bold}.atn{color:#404}.atv{color:#060}}pre.prettyprint{padding:2px;border:1px solid #888}ol.linenums{margin-top:0;margin-bottom:0}li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8{list-style-type:none}li.L1,li.L3,li.L5,li.L7,li.L9{background:#eee}";
+var syntaxCSS = ".editor_code{background-color:#f5f7ff}.prettyprint{background:#f5f7ff;font-family:Menlo,Bitstream Vera Sans Mono,DejaVu Sans Mono,Monaco,Consolas,monospace;border:0!important}.pln{color:#202746}ol.linenums{margin-top:0;margin-bottom:0;color:#202746}li.L0,li.L1,li.L2,li.L3,li.L4,li.L5,li.L6,li.L7,li.L8,li.L9{padding-left:1em;background-color:#f5f7ff;list-style-type:decimal}@media screen{.str{color:#ac9739}.kwd{color:#6679cc}.com{color:#202746}.typ{color:#3d8fd1}.lit{color:#c76b29}.pun{color:#202746}.opn{color:#202746}.clo{color:#202746}.tag{color:#c94922}.atn{color:#c76b29}.atv{color:#22a2c9}.dec{color:#c76b29}.var{color:#c94922}.fun{color:#3d8fd1}}";
 
 var syntaxStyle = document.createElement('style');
 syntaxStyle.id = "syntaxhighlighter.styles";
